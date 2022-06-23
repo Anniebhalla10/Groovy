@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import { Route, Routes, useNavigate} from "react-router-dom";
-import './App.css';
+import './App.scss';
 import { useEffect, useState } from 'react';
 import Login from './components/Login';
 
