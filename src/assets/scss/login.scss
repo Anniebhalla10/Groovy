@@ -1,6 +1,14 @@
+.login-page{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(71, 158, 125, 0.336);
+}
+
 
 .login_form{
     width: 400px;
     height: 400px;
-    border: 2px solid grey;
+    // border: 2px solid grey;
+    border-radius: 10px;
+    background-color: #479E7C;
 }

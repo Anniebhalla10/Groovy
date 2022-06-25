@@ -23,9 +23,9 @@ const Login = () => {
     }
   };
 
-  console.log(credential);
   return (
     <>
+    <div className="login-page">
       <Form
         name="basic"
         labelCol={{
@@ -96,6 +96,7 @@ const Login = () => {
           </Button>
         </Form.Item>
       </Form>
+      </div>
     </>
   );
 };

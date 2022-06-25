@@ -1,0 +1,18 @@
+
+.sidebar{
+    width: 4.2%;
+    height: 100vh;
+    background-color: #479E7C;
+    text-align: center;
+    float: left;
+    z-index: 2;
+
+    &-btn{
+        background-color: #479E7C;
+        margin-top: 10px;
+    }
+}
+
+.headbar{
+}
+
