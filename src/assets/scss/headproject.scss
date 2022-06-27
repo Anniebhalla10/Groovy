@@ -14,5 +14,19 @@
 }
 
 .headbar{
+    width: auto;
+    background-color: rgba(71, 158, 125, 0.336);
+    height: 40px;
+    margin-left: 2.7rem;
+
+    &-greeting{
+        font-family: 'Anek Latin';
+        font-size: 25px;
+        box-sizing: border-box;
+        padding-left: 2%;
+        font-weight: 900;
+        color: #479E7C;
+    }
 }
+
 
