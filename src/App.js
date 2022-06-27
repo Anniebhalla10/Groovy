@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
-import Login from "./components/Login";
-import Home from "./components/Home";
-import HeadProject from "./components/HeadProject";
-import Favourites from "./components/Favourites";
+import Login from "./components/Pages/Login";
+import Home from "./components/Pages/Home";
+import HeadProject from "./components/UI/HeadProject";
+import Favourites from "./components/Pages/Favourites";
 
 function App() {
   return (
