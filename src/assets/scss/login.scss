@@ -1,14 +1,22 @@
 .login-page{
   width: 100vw;
   height: 100vh;
+  display: flex;
   background-color: rgba(71, 158, 125, 0.336);
+  justify-content: center;
+  align-items: center;
 }
 
 
 .login_form{
     width: 400px;
-    height: 400px;
+    height: 300px;
     // border: 2px solid grey;
+    box-shadow: 5px 5px 20px grey;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #479E7C;
+   flex-direction: column;
 }
