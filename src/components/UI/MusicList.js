@@ -13,7 +13,6 @@ const MusicList = () => {
       .then((res) => res.json())
       .then((body) => {
         setData(data.concat(body.results));
-        message.success(`${body.results.length} more items loaded!`);
       });
   };
 
