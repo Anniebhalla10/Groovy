@@ -1,32 +1,70 @@
-
-.sidebar{
-    width: 4.2%;
-    height: 100vh;
-    background-color: #479E7C;
-    text-align: center;
+.sidebar {
+    width: 16%;
+    height: 89vh;
+    // background-color: #479E7C;
+    background-color: transparent;
     float: left;
-    z-index: 2;
+    z-index: 0;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    justify-content: center;
 
-    &-btn{
-        background-color: #479E7C;
+
+    &-btn {
+        // background-color: #479E7C;
+        background-color: transparent;
+        color: white;
+        border: none;
         margin-top: 10px;
+        // left: -5%;
+        margin-inline: 2em;
+    }
+
+    &-menu {
+        padding-block: 1em;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        text-align: center;
+        align-items: center;
+    }
+
+    &-menu:hover {
+        background-color: rgba(#fff, 0.113);
+        color: white;
+        border-radius: 0 10px 10px 0;
     }
 }
 
-.headbar{
-    width: auto;
-    background-color: rgba(71, 158, 125, 0.336);
+.headbar {
+    width: 100vw;
+    // background-color: rgba(71, 158, 125, 0.336);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
     height: 40px;
-    margin-left: 2.7rem;
+    // margin-left: 2.7rem;
+    // float: right;
+    font-size: xx-large;
+    padding: .5% 1%;
+    font-weight: 100;
 
-    &-greeting{
+    &>b {
+        font-weight: 900;
+    }
+
+    &-greeting {
+        float: right;
         font-family: 'Anek Latin';
         font-size: 25px;
         box-sizing: border-box;
         padding-left: 2%;
         font-weight: 900;
         color: #479E7C;
+        // color: white;
+        text-align: right;
     }
 }
-
-

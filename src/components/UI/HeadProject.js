@@ -29,21 +29,31 @@ const HeadProject = () => {
     <>
       <div className="headproject">
         <div className="sidebar">
-          <Button
-            icon={<AiFillHome />}
-            className="sidebar-btn"
-            onClick={() => navigate("/home")}
-          />
-          <Button
-            icon={<AiFillHeart />}
-            className="sidebar-btn"
-            onClick={() => navigate("/home/favourites")}
-          />
-          <Button icon={<AiFillSetting />} className="sidebar-btn" />
+          <div className="sidebar-menu">
+            <Button
+              icon={<AiFillHome style={{ fontSize: '25px' }} />}
+              className="sidebar-btn"
+              onClick={() => navigate("/home")}
+            />
+            <label>Home</label>
+          </div>
+          <div className="sidebar-menu">
+            <Button
+              icon={<AiFillHeart style={{ fontSize: '25px' }} />}
+              className="sidebar-btn"
+              onClick={() => navigate("/home/favourites")}
+            />
+            <label>Favourites</label>
+          </div>
+          <div className="sidebar-menu">
+            <Button icon={<AiFillSetting style={{ fontSize: '25px' }} />} className="sidebar-btn" />
+            <label>Settings</label>
+          </div>
         </div>
       </div>
 
       <div className="headbar">
+        <b>GROOVY</b>MUSIC
         <div className="headbar-greeting">Good {greet}</div>
       </div>
     </>
