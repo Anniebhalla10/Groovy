@@ -1,6 +1,7 @@
 .sidebar {
-    width: 16%;
-    height: 89vh;
+    width: 19%;
+    height: 100vh;
+    box-shadow: 0.5px 0px 4px .2px grey;
     // background-color: #479E7C;
     background-color: transparent;
     float: left;
@@ -29,6 +30,7 @@
         grid-template-columns: 30% 70%;
         text-align: center;
         align-items: center;
+        cursor: pointer;
     }
 
     &-menu:hover {
